@@ -1,27 +1,46 @@
 
 body {
     display: flex;           
-    flex-direction: column; 
-    margin: 0;             
+    flex-direction: column;           
     min-height: 100vh; 
-    background-color: green;   
+    background-color: rgb(15, 108, 68);
+    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
 }
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+      }
+      nav li a {
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .logo {
+    font-size: 2em;
+  }
   main {
     display: flex;          
     flex-direction: row;    
     flex: auto;              
   }
-  
-  article {
+    article {
     flex: 2;                
     overflow-y: auto;     
     padding: 10px;         
-    background-color: #f0f0f0; 
+    background-color: #7aab86; 
   }
   
   aside {
-    flex: 1;                 
+    flex:1;                 
     overflow-y: auto;        
     padding: 10px;         
-    background-color: #e0e0e0;
+    background-color: #556355;
+    color: white;
   }
