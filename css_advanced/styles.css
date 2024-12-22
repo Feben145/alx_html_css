@@ -1,0 +1,219 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: right;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: regular;
+  margin: 0 1rem;
+  
+}
+nav ul li{
+    float:right;
+}
+
+/* Hero Section */
+
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden; 
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.content {             
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  text-align: center;
+  z-index: 1; 
+}
+.content span {
+    display: inline-flex;         
+    justify-content: center; 
+    gap: 15px; 
+}
+/* "Learn from the Pros" Section */
+.pros {
+  padding: 2rem;
+  background-color: #eef;
+}
+
+.pros h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pros .profile {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+.image-container {
+      display: flex;
+      justify-content: flex-end;
+     
+      gap: 20px;
+      color:#ffffff;
+      position: absolute;
+      bottom: 5px;
+      margin-left: 220px;
+      float:left;
+      
+}
+.highlight{
+    color:purple;
+}
+    .my-button {
+        background-color: rgb(148, 23, 148);
+        border-radius: 10px;
+        color:white;
+        border: none;        
+  padding: 10px 20px;       
+  font-size: 12px;
+    }
+    .image-container img {
+        width: 100px;
+        height: auto;
+      }
+.pros .profile img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.pros .profile .info {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.pros .profile .info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.pros .profile .info p {
+  margin: 0.5rem 0 0;
+  color: #777;
+}
+
+/* Tutorials Section */
+.tutorials {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.tutorials h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tutorials .tutorial {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.tutorials .tutorial .info {
+  flex: 3;
+}
+
+.tutorials .tutorial .time {
+  flex: 1;
+  text-align: right;
+  color: #777;
+}
+
+/* FAQ Section */
+.faq {
+  padding: 2rem;
+  background-color: #eef;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.faq .question {
+  margin-bottom: 1rem;
+}
+
+.faq .question h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.faq .question p {
+  margin: 0.5rem 0 0;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.foot div img {
+    display: inline-flex;         
+    justify-content: left; 
+}
+
+
+
+
+
+
