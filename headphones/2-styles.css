@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header Styles (from 0-styles.css) */
+/* ... (Your header styles here) ... */
+
+/* What We Do Section (from 1-styles.css) */
+/* ... (Your What We Do section styles here) ... */
+
+/* Our Results Section */
+#our-results {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#our-results h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #333; 
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.result {
+    width: 30%;
+    margin-bottom: 40px;
+    text-align: left; 
+}
+
+.result img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.result h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333; 
+}
+
+.result p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666; 
+}
+
+/* Responsive Design (Adjust as needed) */
+@media screen and (max-width: 768px) {
+    .result {
+        width: 45%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .result {
+        width: 100%; 
+    }
+}
