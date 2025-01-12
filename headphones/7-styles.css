@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header Styles (from 0-styles.css) */
+/* ... (Your header styles here) ... */
+
+/* What We Do Section */
+#what-we-do {
+    /* ... (Previous styles for #what-we-do) ... */
+}
+
+.feature {
+    /* ... (Previous styles for .feature) ... */
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth animation */
+}
+
+.feature:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Our Results Section */
+#our-results {
+    /* ... (Previous styles for #our-results) ... */
+}
+
+.result {
+    /* ... (Previous styles for .result) ... */
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth animation */
+}
+
+.result:hover {
+    transform: translateY(-10px); /* Slightly move up on hover */
+}
+
+.pentagon {
+    /* ... (Previous styles for .pentagon) ... */
+    animation: rotate 2s infinite linear; /* Continuous rotation animation */
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

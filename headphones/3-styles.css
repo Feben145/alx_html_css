@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header Styles (from 0-styles.css) */
+/* ... (Your header styles here) ... */
+
+/* What We Do Section (from 1-styles.css) */
+/* ... (Your What We Do section styles here) ... */
+
+/* Our Results Section (from 2-styles.css) */
+/* ... (Your Our Results section styles here) ... */
+
+/* Contact Us Section */
+#contact {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #333; 
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical; 
+}
+
+button[type="submit"] {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+/* Responsive Design (Adjust as needed) */
+@media screen and (max-width: 480px) {
+    form {
+        max-width: 100%;
+        padding: 20px;
+    }
+}
